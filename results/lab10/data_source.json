@@ -1,0 +1,11 @@
+{
+  "provider": "Kaggle / Ashpal Singh",
+  "dataset_url": "https://www.kaggle.com/datasets/ashpalsingh1525/imdb-movies-dataset",
+  "download_url": "https://www.kaggle.com/api/v1/datasets/download/ashpalsingh1525/imdb-movies-dataset",
+  "downloaded_at_utc": "2026-11-05T08:37:44.731772+00:00",
+  "sha256": "acefbb7fb126eb9365b8ba2121d2c1d98cd1ede7c759b08d2315d69cfffd6ee1",
+  "csv_bytes": 6723214,
+  "raw_rows": 10178,
+  "raw_columns": 12,
+  "same_bytes_as_previous_design_lab": true
+}

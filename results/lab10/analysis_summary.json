@@ -1,0 +1,73 @@
+{
+  "raw_rows": 10178,
+  "raw_columns": 12,
+  "rows_retained": 10052,
+  "rows_dropped": 126,
+  "score_threshold": 65,
+  "class_counts": {
+    "low": 5051,
+    "high": 5001
+  },
+  "train_rows": 8041,
+  "test_rows": 2011,
+  "feature_columns_before_encoding": [
+    "budget_x",
+    "revenue",
+    "country",
+    "top_genre",
+    "top_lang",
+    "year"
+  ],
+  "encoded_features": 55,
+  "country_threshold": 100,
+  "language_threshold": 10,
+  "country_levels": 11,
+  "genre_levels": 19,
+  "language_levels": 22,
+  "best_k": 11,
+  "best_accuracy": 0.7100944803580308,
+  "baseline_accuracy": 0.5087021382396818,
+  "results": [
+    {
+      "k": 1,
+      "correct_predictions": 1302,
+      "test_movies": 2011,
+      "accuracy": 0.6474390850323223,
+      "training_accuracy": 1.0
+    },
+    {
+      "k": 3,
+      "correct_predictions": 1372,
+      "test_movies": 2011,
+      "accuracy": 0.6822476379910493,
+      "training_accuracy": 0.8160676532769556
+    },
+    {
+      "k": 5,
+      "correct_predictions": 1396,
+      "test_movies": 2011,
+      "accuracy": 0.69418199900547,
+      "training_accuracy": 0.7754010695187166
+    },
+    {
+      "k": 7,
+      "correct_predictions": 1403,
+      "test_movies": 2011,
+      "accuracy": 0.6976628543013426,
+      "training_accuracy": 0.7594826514115159
+    },
+    {
+      "k": 11,
+      "correct_predictions": 1428,
+      "test_movies": 2011,
+      "accuracy": 0.7100944803580308,
+      "training_accuracy": 0.7416987936823778
+    }
+  ],
+  "dataset_url": "https://www.kaggle.com/datasets/ashpalsingh1525/imdb-movies-dataset",
+  "csv_sha256": "acefbb7fb126eb9365b8ba2121d2c1d98cd1ede7c759b08d2315d69cfffd6ee1",
+  "python_version": "3.14.2",
+  "pandas_version": "3.0.6",
+  "sklearn_version": "1.9.1",
+  "preprocessing": "Numeric scaling fitted on training data only; category collapsing follows the provided lab workflow."
+}
