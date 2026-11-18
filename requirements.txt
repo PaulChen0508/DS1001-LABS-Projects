@@ -8,6 +8,7 @@ contourpy==1.4.0
 cycler==0.12.1
 debugpy==1.8.22
 executing==2.2.1
+fairlearn==0.15.0
 fastjsonschema==2.22.2
 Flask==3.1.1
 fonttools==4.67.0
